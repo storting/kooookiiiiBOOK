@@ -7,9 +7,16 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800" Background="LavenderBlush">
 
-    <Grid>
-        <Menu Background="#FF8CB98C" Margin="0,0,0,397">
-            <Label x:Name="label" Content="ЧТО ПРИГОТОВИТЬ СЕГОДНЯ?             " Width="398" Height="33" FontFamily="Yu Gothic UI" FontSize="20" FontStyle="Italic" Foreground="#FF060101" HorizontalAlignment="Left" RenderTransformOrigin="0.846,0.686"/>
+    <Canvas>
+        <Menu Background="#FF8CB98C" Margin="0,0,0,397" Width="800" Height="39">
+            <Label x:Name="label" Content="ЧТО ПРИГОТОВИТЬ СЕГОДНЯ?             " 
+                   Width="398" Height="33" 
+                   FontFamily="Yu Gothic UI" 
+                   FontSize="20" 
+                   FontStyle="Italic" 
+                   Foreground="#FF060101" 
+                   HorizontalAlignment="Left" 
+                   RenderTransformOrigin="0.846,0.686"/>
 
         </Menu>
         <Button x:Name="decertbut" Content="Десерты" HorizontalAlignment="Left" Margin="461,363,0,0" VerticalAlignment="Top" Height="42" Width="132" Click="Button_Click" Background="#FFFDBBE5" Opacity="0.9" FontSize="18" Foreground="Black" BorderBrush="#FFFFE4F5" FontFamily="Magneto" >
@@ -39,7 +46,7 @@
             </Button.Template>
         </Button>
 
-        <Image Source= "/breakfac.png" Margin="90,51,570,250"/>
+        <Image Source= "/breakfac.png" Height="96" Canvas.Left="90" Canvas.Top="51" Width="136"/>
 
         <Button Content="Завтрак" HorizontalAlignment="Left" Margin="94,175,0,0" VerticalAlignment="Top" Height="42" Width="132" Click="Button_Click" Background="#FFFDBBE5" BorderBrush="#FFFFE4F5" FontSize="18">
             <Button.Template>
@@ -67,7 +74,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button x:Name="obedbut" Content="Обед" HorizontalAlignment="Center" Margin="0,175,0,0" VerticalAlignment="Top" Height="42" Width="132"  Background="#FFFDBBE5" BorderBrush="#FFFDBBE5" FontSize="18" Click="obedbut_Click">
+        <Button x:Name="obedbut" Content="Обед" HorizontalAlignment="Left" VerticalAlignment="Top" Height="42" Width="132"  Background="#FFFDBBE5" BorderBrush="#FFFDBBE5" FontSize="18" Click="obedbut_Click" Canvas.Left="334" Canvas.Top="175">
             <Button.Template>
                 <ControlTemplate TargetType="Button">
                     <Border Background="{TemplateBinding Background}"
@@ -80,10 +87,10 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Image Source= "/obed.jpg" Margin="330,50,330,249"/>
-        <Image Source= "/yshin.png" Margin="571,50,89,249"/>
-        <Image Source= "/noroot.png" Margin="209,238,451,61"/>
-        <Image Source= "/dec.png" Margin="457,238,203,61"/>
+        <Image Source= "/obed.jpg" Height="93" Canvas.Left="330" Canvas.Top="50" Width="140"/>
+        <Image Source= "/yshin.png" Height="105" Canvas.Left="571" Canvas.Top="50" Width="136"/>
+        <Image Source= "/noroot.png" Height="107" Canvas.Left="209" Canvas.Top="238" Width="136"/>
+        <Image Source= "/dec.png" Height="111" Canvas.Left="457" Canvas.Top="238" Width="136"/>
 
-    </Grid>
+    </Canvas>
 </Window>
