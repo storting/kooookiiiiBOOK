@@ -27,7 +27,6 @@ namespace koookiiii
         public string ViewModel { get; set; }
 
 
-
         private void Button_Click(object sender, RoutedEventArgs e)
         {
            breakfast newWindow = new breakfast();

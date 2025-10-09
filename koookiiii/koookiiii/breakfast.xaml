@@ -9,7 +9,7 @@
     <Grid>
 
 
-        <Menu Background="#FF8CB98C" Margin="0,0,0,397">
+        <Menu Background="#FF8CB98C" Margin="0,0,0,397" Width="800" Height="39">
             <Label x:Name="label" Content="ЗАВТРАК            " Width="398" Height="33" FontFamily="Yu Gothic UI" FontSize="20" FontStyle="Italic" Foreground="#FF060101" RenderTransformOrigin="0.846,0.686" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="50,0,0,0"/>
 
         </Menu>
