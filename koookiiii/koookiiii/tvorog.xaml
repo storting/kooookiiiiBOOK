@@ -1,0 +1,26 @@
+﻿<Window x:Class="koookiiii.tvorog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:koookiiii"
+        mc:Ignorable="d"
+        Title="tvorog" Height="450" Width="800">
+    <Grid>
+        <Image HorizontalAlignment="Left" Height="232" Margin="29,0,0,0" VerticalAlignment="Center" Width="314" Source="/tvorog.png"/>
+        <Menu Background="#FF8CB98C" Margin="0,0,0,397">
+            <Label x:Name="label" Content="ТВОРОЖНАЯ ЗАПЕКАНКА         " Width="398" Height="33" FontFamily="Yu Gothic UI" FontSize="20" FontStyle="Italic" Foreground="#FF060101" RenderTransformOrigin="0.846,0.686" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="50,0,0,0"/>
+
+        </Menu>
+        <Label Content="Шаг 1&#xD;&#xA;Смешиваем в посуде манку и сметанку&#xD;&#xA;и оставляем для набухания на пол часа.&#xD;&#xA;Шаг 2&#xD;&#xA;В это время займемся творогом. На творог скупиться не нужно, &#xD;&#xA;берем проверенной марки и по жирнее.&#xD;&#xA;Протираем его через ситечко, чтобы разделить на мелкие крупинки.&#xD;&#xA;Шаг 3&#xD;&#xA;В протертый творог добавляем нашу набухшую манку, &#xD;&#xA;яйца, соль, сахар и ванильный сахар. Хорошо взбиваем в &#xD;&#xA;однородную пасту. .&#xD;&#xA;Шаг 4&#xD;&#xA;Вот и все! Осталось только смазать форму и вылить нашу &#xD;&#xA;массу и поставить в духовку и выпекать минут этак 30&#xD;&#xA; при 180 гр.&#xD;&#xA;Шаг 5&#xD;&#xA;Готовую запеканку режем на порционные кусочки&#xD;&#xA;и подаем политыми сгущенным молоком. " Margin="343,77,0,0" VerticalAlignment="Top" Height="347" FontSize="14" Background="#00000000"/>
+        <Label Content="Способ приготовления" HorizontalAlignment="Center" Margin="0,46,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="16" Foreground="#FFFDBBE5"/>
+        <Border BorderBrush="#FFFDBBE5" BorderThickness="3" RenderTransformOrigin="0.5,0.5" Margin="23,337,568,48" CornerRadius="10" Background="Transparent">
+            <Label Content="1 час 10 мин" Margin="-1,7,-1,7" FontSize="16" HorizontalAlignment="Center"/>
+
+        </Border>
+        <Image Source="/free-icon-time-3239945.png" Margin="27,350,705,61"/>
+        <Button HorizontalAlignment="Left" Margin="23,51,0,0" VerticalAlignment="Top"  Background="Transparent" Click="Button_Click" Height="39" Width="100" BorderBrush="Transparent">
+            <Image Source="/free-icon-back-3681055.png" Width="43"/>
+        </Button>
+    </Grid>
+</Window>

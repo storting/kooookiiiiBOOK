@@ -1,0 +1,26 @@
+﻿<Window x:Class="koookiiii.pankeiki"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:koookiiii"
+        mc:Ignorable="d"
+        Title="pankeiki" Height="450" Width="800">
+    <Grid>
+        <Image HorizontalAlignment="Left" Height="232" Margin="29,0,0,0" VerticalAlignment="Center" Width="314" Source="/pankeiki.png"/>
+        <Menu Background="#FF8CB98C" Margin="0,0,0,397">
+            <Label x:Name="label" Content="ПАНКЕЙКИ         " Width="398" Height="33" FontFamily="Yu Gothic UI" FontSize="20" FontStyle="Italic" Foreground="#FF060101" RenderTransformOrigin="0.846,0.686" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="50,0,0,0"/>
+
+        </Menu>
+        <Label Content="Способ приготовления" HorizontalAlignment="Center" Margin="0,46,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="16" Foreground="#FFFDBBE5"/>
+        <Border BorderBrush="#FFFDBBE5" BorderThickness="3" RenderTransformOrigin="0.5,0.5" Margin="23,337,568,48" CornerRadius="10" Background="Transparent">
+            <Label Content="30 мин" Margin="-1,7,-1,7" FontSize="16" HorizontalAlignment="Center"/>
+
+        </Border>
+        <Image Source="/free-icon-time-3239945.png" Margin="51,350,681,61"/>
+        <Button HorizontalAlignment="Left" Margin="23,51,0,0" VerticalAlignment="Top"  Background="Transparent" Click="Button_Click" Height="39" Width="100" BorderBrush="Transparent">
+            <Image Source="/free-icon-back-3681055.png" Width="43"/>
+        </Button>
+        <TextBlock HorizontalAlignment="Left" Margin="354,82,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="333" Width="440"><Run Text="Шаг 1 "/><LineBreak/><Run Text="В ёмкость, в которой будем делать тесто для панкейков, выбиваем яйцо, добавляем сахар (30 г или 2 ст. ложки) и соль (1/2 ч. ложки). "/><Run Text=" Перемешиваем миксером или просто венчиком до однородного состояния и полного растворения сахара и соли."/><LineBreak/><Run Text="Шаг 2 "/><LineBreak/><Run Text="Добавляем молоко (210 г), перемешиваем."/><Run Text=" Наливаем растительное масло"/><LineBreak/><Run Text="(25 г (~2 ст. ложки) и снова хорошенько перемешиваем."/><LineBreak/><Run Text="Шаг 3 "/><LineBreak/><Run Text="С"/><Run Text="ковороду ставим на средний огонь и хорошо разогреваем. Наливаем тесто на горячую сковороду. Лейте тесто в середину блинчика, оно будет само растекаться. Если будет нужно, немного подравняйте, чтобы круги получились максимально ровные."/><LineBreak/><Run Text=" Шаг 4 "/><LineBreak/><Run Text="Жарим панкейки с обратной стороны до такого же румяного цвета, как и с первой стороны."/><LineBreak/><Run Text="Шаг 5 "/><LineBreak/><Run Text="Панкейки готовы, не ждите, пока они остынут, ешьте их сразу. К ним хорошо добавлять ягоды, орехи, поливать различными сиропами и сладкими соусами, растопленным шоколадом, сгущённым молоком или мёдом. "/></TextBlock>
+    </Grid>
+</Window>

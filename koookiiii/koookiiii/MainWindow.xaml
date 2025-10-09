@@ -1,0 +1,89 @@
+﻿<Window x:Class="koookiiii.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:koookiiii"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Background="LavenderBlush">
+
+    <Grid>
+        <Menu Background="#FF8CB98C" Margin="0,0,0,397">
+            <Label x:Name="label" Content="ЧТО ПРИГОТОВИТЬ СЕГОДНЯ?             " Width="398" Height="33" FontFamily="Yu Gothic UI" FontSize="20" FontStyle="Italic" Foreground="#FF060101" HorizontalAlignment="Left" RenderTransformOrigin="0.846,0.686"/>
+
+        </Menu>
+        <Button x:Name="decertbut" Content="Десерты" HorizontalAlignment="Left" Margin="461,363,0,0" VerticalAlignment="Top" Height="42" Width="132" Click="Button_Click" Background="#FFFDBBE5" Opacity="0.9" FontSize="18" Foreground="Black" BorderBrush="#FFFFE4F5" FontFamily="Magneto" >
+            <Button.Template>
+                <ControlTemplate TargetType="Button">
+                    <Border Background="{TemplateBinding Background}"
+            CornerRadius="10"
+            BorderThickness="{TemplateBinding BorderThickness}"
+            BorderBrush="{TemplateBinding BorderBrush}">
+                        <ContentPresenter HorizontalAlignment="Center"
+                          VerticalAlignment="Center"/>
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button x:Name="zakuskibut" Content="Закуски" HorizontalAlignment="Left" Margin="213,363,0,0" VerticalAlignment="Top" Height="42" Width="132" Click="Button_Click" Background="#FFFDBBE5" BorderBrush="#FFFFE4F5" FontSize="18">
+            <Button.Template>
+                <ControlTemplate TargetType="Button">
+                    <Border Background="{TemplateBinding Background}"
+            CornerRadius="10"
+            BorderThickness="{TemplateBinding BorderThickness}"
+            BorderBrush="{TemplateBinding BorderBrush}">
+                        <ContentPresenter HorizontalAlignment="Center"
+                          VerticalAlignment="Center"/>
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+
+        <Image Source= "/breakfac.png" Margin="90,51,570,250"/>
+
+        <Button Content="Завтрак" HorizontalAlignment="Left" Margin="94,175,0,0" VerticalAlignment="Top" Height="42" Width="132" Click="Button_Click" Background="#FFFDBBE5" BorderBrush="#FFFFE4F5" FontSize="18">
+            <Button.Template>
+                <ControlTemplate TargetType="Button">
+                    <Border Background="{TemplateBinding Background}"
+            CornerRadius="10"
+            BorderThickness="{TemplateBinding BorderThickness}"
+            BorderBrush="{TemplateBinding BorderBrush}">
+                        <ContentPresenter HorizontalAlignment="Center"
+                          VerticalAlignment="Center"/>
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button x:Name="ychinbut" Content="Ужин" HorizontalAlignment="Left" Margin="575,175,0,0" VerticalAlignment="Top" Height="42" Width="132"  Background="#FFFDBBE5" BorderBrush="#FFFFE4F5" FontSize="18" Click="ychinbut_Click">
+            <Button.Template>
+                <ControlTemplate TargetType="Button">
+                    <Border Background="{TemplateBinding Background}"
+            CornerRadius="10"
+            BorderThickness="{TemplateBinding BorderThickness}"
+            BorderBrush="{TemplateBinding BorderBrush}">
+                        <ContentPresenter HorizontalAlignment="Center"
+                          VerticalAlignment="Center"/>
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Button x:Name="obedbut" Content="Обед" HorizontalAlignment="Center" Margin="0,175,0,0" VerticalAlignment="Top" Height="42" Width="132"  Background="#FFFDBBE5" BorderBrush="#FFFDBBE5" FontSize="18" Click="obedbut_Click">
+            <Button.Template>
+                <ControlTemplate TargetType="Button">
+                    <Border Background="{TemplateBinding Background}"
+            CornerRadius="10"
+            BorderThickness="{TemplateBinding BorderThickness}"
+            BorderBrush="{TemplateBinding BorderBrush}">
+                        <ContentPresenter HorizontalAlignment="Center"
+                          VerticalAlignment="Center"/>
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <Image Source= "/obed.jpg" Margin="330,50,330,249"/>
+        <Image Source= "/yshin.png" Margin="571,50,89,249"/>
+        <Image Source= "/noroot.png" Margin="209,238,451,61"/>
+        <Image Source= "/dec.png" Margin="457,238,203,61"/>
+
+    </Grid>
+</Window>

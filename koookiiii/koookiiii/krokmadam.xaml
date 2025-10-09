@@ -1,0 +1,26 @@
+﻿<Window x:Class="koookiiii.krokmadam"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:koookiiii"
+        mc:Ignorable="d"
+        Title="krokmadam" Height="450" Width="800">
+    <Grid>
+        <Image HorizontalAlignment="Left" Height="232" Margin="29,0,0,0" VerticalAlignment="Center" Width="314" Source="/krok madam.png"/>
+        <Menu Background="#FF8CB98C" Margin="0,0,0,397">
+            <Label x:Name="label" Content="КРОК МАДАМ       " Width="398" Height="33" FontFamily="Yu Gothic UI" FontSize="20" FontStyle="Italic" Foreground="#FF060101" RenderTransformOrigin="0.846,0.686" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="50,0,0,0"/>
+
+        </Menu>
+        <Label Content="Способ приготовления" HorizontalAlignment="Center" Margin="0,46,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="16" Foreground="#FFFDBBE5"/>
+        <Border BorderBrush="#FFFDBBE5" BorderThickness="3" RenderTransformOrigin="0.5,0.5" Margin="23,337,568,48" CornerRadius="10" Background="Transparent">
+            <Label Content="15 мин" Margin="-1,7,-1,7" FontSize="16" HorizontalAlignment="Center"/>
+
+        </Border>
+        <Image Source="/free-icon-time-3239945.png" Margin="51,350,681,61"/>
+        <Button HorizontalAlignment="Left" Margin="23,51,0,0" VerticalAlignment="Top"  Background="Transparent" Click="Button_Click" Height="39" Width="100" BorderBrush="Transparent">
+            <Image Source="/free-icon-back-3681055.png" Width="43"/>
+        </Button>
+        <TextBlock HorizontalAlignment="Left" Margin="358,82,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="352" Width="415"><Run Text="Шаг 1"/><LineBreak/><Run Text="Смажьте ломти хлеба внутри тоненьким слоем сливочного масла хорошего качества. В некоторых вариантах встречается один ломоть хлеба, смазанный маслом, а второй - сладкой дижонской горчицей. "/><LineBreak/><Run Text="Шаг 2"/><LineBreak/><Run Text="Теперь на хлеб нужно положить тонкие слайсы твердого сыра."/><Run Text=" Дальше кладем ломти ветчины хорошего качества, их должно быть хотя бы по 2 штуки на сэндвич."/><LineBreak/><Run Text="Шаг 3"/><LineBreak/><Run Text="Разогрейте сковороду, смажьте ее небольшим количеством сливочного масла, выложите сэндвичи. Жарьте с обеих сторон до красивой румяной корочки с обеих сторон. Огонь должен быть менее чем умеренным, поскольку сливочное масло быстро горит, а нам нужно, чтобы сыр внутри расплавился и ветчина успела прогреться."/><LineBreak/><Run Text="Шаг 4"/><LineBreak/><Run Text="В эту же сковороду положите оставшееся сливочное масло, быстро обжарьте на нем яичницу глазунью."/><LineBreak/><Run Text="Шаг 5"/><LineBreak/><Run Text="При подаче на каждый сэндвич положите по глазунье, чуть разрежьте желток и сразу же подавайте бутерброды Крок-мадам к столу."/></TextBlock>
+    </Grid>
+</Window>
